@@ -1,0 +1,15 @@
+[project]
+name = "emailbot"
+version = "0.1.0"
+description = "MCP server for controlling Gmail: sending, drafting, and managing emails via natural language"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp[cli]>=1.9.0",
+    "google-api-python-client",
+    "google-auth",
+    "google-auth-httplib2",
+    "google-auth-oauthlib",
+    "requests",
+    "fastmcp"
+]
