@@ -70,14 +70,14 @@ Create or update this file:
 ```
 ```json
 {
-	"mcpServers": {
-		"{{PROJECT_NAME}}": {
-			"command": "{{PATH_TO_PROJECT}}/.venv/bin/python",
-			"args": [
-				"{{PATH_TO_PROJECT}}/main.py"
-			],
-		}
+    "mcpServers": {
+        "{{PROJECT_NAME}}": {
+            "command": "{{PATH_TO_PROJECT}}/.venv/bin/python",
+            "args": [
+                "{{PATH_TO_PROJECT}}/main.py"
+            ],
 	}
+    }
 }
 ```
 
